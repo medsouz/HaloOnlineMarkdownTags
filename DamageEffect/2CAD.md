@@ -1,0 +1,125 @@
+# [0x2CAD] 0x00002CAD
+
+**Name:** ```0x00002CAD```
+
+**Index:** ```0x2CAD```
+
+**Tag Group:** ```DamageEffect (jpt!)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+RadiusMin	|Single	|0.25
+RadiusMax	|Single	|1
+CutoffScale	|Single	|0
+Flags	|UInt32	|0
+SideEffect	|Enum (SideEffectValue)	|null
+Category	|Enum (CategoryValue)	|null
+Flags2	|UInt32	|133152
+AreaOfEffectCoreRadius	|Single	|0.25
+DamageLowerBound	|Single	|30
+DamageUpperBoundMin	|Single	|60
+DamageUpperBoundMax	|Single	|60
+DamageInnerConeAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+DamageOuterConeAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+ActiveCamoflageDamage	|Single	|0.9
+Stun	|Single	|0
+MaxStun	|Single	|0
+StunTime	|Single	|0
+InstantaneousAcceleration	|Single	|3
+RiderDirectDamageScale	|Single	|0
+RiderMaxTransferDamageScale	|Single	|0
+RiderMinTransferDamageScale	|Single	|1.5
+GeneralDamage	|StringId	|explosion_large
+SpecificDamage	|StringId	|
+SpecialDamage	|StringId	|
+AiStunRadius	|Single	|4.5
+AiStunBoundsMin	|Single	|1
+AiStunBoundsMax	|Single	|0.75
+ShakeRadius	|Single	|12
+EmpRadius	|Single	|0
+Unknown	|UInt32	|1041865114
+Unknown2	|UInt32	|1120403456
+Unknown3	|UInt32	|1065353216
+PlayerResponses	|TagBlock (PlayerResponses)	|[2](#playerresponses)
+DamageResponse	|CachedTagInstance (DamageResponseDefinition)	|[[0x1944] 0x00001944](../DamageResponseDefinition/1944.md)
+Duration	|Single	|0.5
+FadeFunction	|Enum (FadeFunctionValue)	|null
+Unknown4	|Int16	|0
+Rotation	|Angle	|{ Degrees: 0.9, Radians: 0.01570796 }
+Pushback	|Single	|0.4
+JitterMin	|Single	|0
+JitterMax	|Single	|0
+Duration2	|Single	|1.25
+FalloffFunction	|Enum (FalloffFunctionValue)	|null
+Unknown5	|Int16	|0
+RandomTranslation	|Single	|0.075
+RandomRotation	|Angle	|{ Degrees: 0, Radians: 0 }
+WobbleFunction	|Enum (WobbleFunctionValue)	|null
+Unknown6	|Int16	|0
+WobbleFunctionPeriod	|Single	|1
+WobbleWeight	|Single	|0
+Sound	|CachedTagInstance	|null
+ForwardVelocity	|Single	|35
+ForwardRadius	|Single	|0.5
+ForwardExponent	|Single	|0.5
+OutwardVelocity	|Single	|6
+OutwardRadius	|Single	|1
+OutwardExponent	|Single	|0.5
+
+
+## Tag Blocks
+
+### PlayerResponses
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ResponseType	|Enum (ResponseTypeValue)	|null
+Unknown	|Int16	|0
+Type	|Enum (TypeValue)	|null
+Priority	|Enum (PriorityValue)	|null
+Duration	|Single	|1
+FadeFunction	|Enum (FadeFunctionValue)	|null
+Unknown2	|Int16	|0
+MaximumIntensity	|Single	|0.5
+ColorAlpha	|Single	|0.75
+ColorRed	|Single	|0
+ColorGreen	|Single	|0.5
+ColorBlue	|Single	|0.75
+LowFrequencyVibrationDuration	|Single	|1
+LowFrequencyVibrationFunction	|Byte[]	|System.Byte[]
+HighFrequencyVibrationDuration	|Single	|0.14
+HighFrequencyVibrationFunction	|Byte[]	|System.Byte[]
+EffectName	|StringId	|
+Duration2	|Single	|0
+EffectScaleFunction	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ResponseType	|Enum (ResponseTypeValue)	|null
+Unknown	|Int16	|0
+Type	|Enum (TypeValue)	|null
+Priority	|Enum (PriorityValue)	|null
+Duration	|Single	|1.5
+FadeFunction	|Enum (FadeFunctionValue)	|null
+Unknown2	|Int16	|0
+MaximumIntensity	|Single	|0.5
+ColorAlpha	|Single	|0.25
+ColorRed	|Single	|0.25
+ColorGreen	|Single	|0
+ColorBlue	|Single	|0
+LowFrequencyVibrationDuration	|Single	|1
+LowFrequencyVibrationFunction	|Byte[]	|System.Byte[]
+HighFrequencyVibrationDuration	|Single	|0.24
+HighFrequencyVibrationFunction	|Byte[]	|System.Byte[]
+EffectName	|StringId	|
+Duration2	|Single	|0
+EffectScaleFunction	|Byte[]	|System.Byte[]
+
+

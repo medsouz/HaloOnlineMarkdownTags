@@ -1,0 +1,1644 @@
+# 0x4AEC
+
+**Index:** ```0x4AEC```
+
+**Tag Group:** ```Shader (rmsh)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+BaseRenderMethod	|CachedTagInstance (RenderMethodDefinition)	|[0x4458](../RenderMethodDefinition/4458.md)
+Unknown	|TagBlock (Unknown)	|[12](#unknown)
+ImportData	|TagBlock (ImportData)	|[17](#importdata)
+ShaderProperties	|TagBlock (ShaderProperties)	|[1](#shaderproperties)
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|1
+Unknown5	|SByte	|0
+Unknown6	|UInt32	|0
+Unknown7	|Int32	|-1
+Material	|StringId	|hard_metal_thick_for
+
+
+## Tag Blocks
+
+### Unknown
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|2
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|3
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+### ImportData
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|base_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AED](../Bitmap/4AED.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|bump_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|1
+Unknown5	|Int16	|6
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|diffuse_coefficient
+Unknown	|Int32	|2
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|fresnel_color
+Unknown	|Int32	|1
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|roughness
+Unknown	|Int32	|2
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|height_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|1
+Unknown5	|Int16	|6
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|0
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|self_illum_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|height_scale
+Unknown	|Int32	|2
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|albedo_color
+Unknown	|Int32	|5
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|0
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|self_illum_color
+Unknown	|Int32	|1
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|noise_map_a
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AEE](../Bitmap/4AEE.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|noise_map_b
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AEF](../Bitmap/4AEF.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|alpha_mask_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AED](../Bitmap/4AED.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|color_sharp
+Unknown	|Int32	|5
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|color_wide
+Unknown	|Int32	|5
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|color_medium
+Unknown	|Int32	|5
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|self_illum_intensity
+Unknown	|Int32	|2
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+### ImportData_Functions
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1082130432
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1065353216
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+### ShaderProperties
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Template	|CachedTagInstance (RenderMethodTemplate)	|[0x4AF0](../RenderMethodTemplate/4AF0.md)
+ShaderMaps	|TagBlock (ShaderProperties_ShaderMaps)	|[5](#shaderproperties_shadermaps)
+Arguments	|TagBlock (ShaderProperties_Arguments)	|[25](#shaderproperties_arguments)
+Unknown	|TagBlock (ShaderProperties_Unknown)	|0
+Unknown2	|UInt32	|0
+DrawModes	|TagBlock (ShaderProperties_DrawModes)	|[20](#shaderproperties_drawmodes)
+Unknown4	|TagBlock (ShaderProperties_Unknown4)	|[18](#shaderproperties_unknown4)
+Unknown5	|TagBlock (ShaderProperties_Unknown5)	|[44](#shaderproperties_unknown5)
+Functions	|TagBlock (ShaderProperties_Functions)	|[4](#shaderproperties_functions)
+BitmapTransparency	|Int32	|1
+Unknown7	|Int32	|0
+Unknown8	|UInt32	|0
+Unknown9	|Int16	|-1
+Unknown10	|Int16	|0
+Unknown11	|Int16	|-1
+Unknown12	|Int16	|-1
+Unknown13	|Int16	|2
+Unknown14	|Int16	|-1
+Unknown15	|Int16	|-1
+Unknown16	|Int16	|-1
+
+
+### ShaderProperties_ShaderMaps
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AED](../Bitmap/4AED.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|4
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x445C](../Bitmap/445C.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|1
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AEE](../Bitmap/4AEE.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|14
+Unknown3	|SByte	|1
+Unknown4	|SByte	|4
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AEF](../Bitmap/4AEF.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|15
+Unknown3	|SByte	|2
+Unknown4	|SByte	|4
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4AED](../Bitmap/4AED.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|20
+Unknown3	|SByte	|3
+Unknown4	|SByte	|4
+
+
+### ShaderProperties_Arguments
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0
+Arg2	|Single	|0
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|10
+Arg2	|Single	|10
+Arg3	|Single	|10
+Arg4	|Single	|10
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|10
+Arg2	|Single	|10
+Arg3	|Single	|10
+Arg4	|Single	|10
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|5
+Arg2	|Single	|5
+Arg3	|Single	|5
+Arg4	|Single	|5
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0.5
+Arg2	|Single	|0.5
+Arg3	|Single	|0.5
+Arg4	|Single	|0.5
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0.5
+Arg2	|Single	|0.5
+Arg3	|Single	|0.5
+Arg4	|Single	|0.5
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0
+Arg2	|Single	|0
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0
+Arg2	|Single	|0
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|1
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|0.4313726
+Arg3	|Single	|0
+Arg4	|Single	|1
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0.5215687
+Arg2	|Single	|0.2352941
+Arg3	|Single	|0
+Arg4	|Single	|1
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|16
+Arg2	|Single	|16
+Arg3	|Single	|16
+Arg4	|Single	|16
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|4
+Arg2	|Single	|4
+Arg3	|Single	|4
+Arg4	|Single	|4
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|32
+Arg2	|Single	|32
+Arg3	|Single	|32
+Arg4	|Single	|32
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0
+Arg2	|Single	|0
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+### ShaderProperties_DrawModes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1024
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1026
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1028
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1027
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1031
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1032
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1033
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1029
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1030
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1034
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1036
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1035
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1037
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|1038
+
+
+### ShaderProperties_Unknown4
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|4
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|1
+Unknown3	|SByte	|4
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|2
+Unknown3	|SByte	|16
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|10
+Unknown3	|SByte	|16
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|6
+Unknown3	|SByte	|16
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|38
+Unknown3	|SByte	|4
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|14
+Unknown3	|SByte	|16
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|18
+Unknown3	|SByte	|16
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|22
+Unknown3	|SByte	|16
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|39
+Unknown3	|SByte	|16
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|43
+Unknown3	|SByte	|4
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|26
+Unknown3	|SByte	|16
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|34
+Unknown3	|SByte	|16
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|SByte	|30
+Unknown3	|SByte	|16
+
+
+### ShaderProperties_Unknown5
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|3585
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3842
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|62
+Unknown2	|Int16	|5123
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|3585
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3842
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|62
+Unknown2	|Int16	|5123
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|3585
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3842
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|62
+Unknown2	|Int16	|5123
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|64
+Unknown2	|Int16	|3585
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|65
+Unknown2	|Int16	|3842
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|63
+Unknown2	|Int16	|5123
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|59
+Unknown2	|Int16	|0
+
+
+### ShaderProperties_Functions
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1065353216
+Function2	|Byte[]	|System.Byte[]
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|6
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1073741824
+Function2	|Byte[]	|System.Byte[]
+
+

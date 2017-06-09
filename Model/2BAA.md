@@ -1,0 +1,279 @@
+# [0x2BAA] 0x00002BAA
+
+**Name:** ```0x00002BAA```
+
+**Index:** ```0x2BAA```
+
+**Tag Group:** ```Model (hlmt)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+RenderModel	|CachedTagInstance (RenderModel)	|[[0x2BAB] 0x00002BAB](../RenderModel/2BAB.md)
+CollisionModel	|CachedTagInstance (CollisionModel)	|[[0x2BAC] 0x00002BAC](../CollisionModel/2BAC.md)
+Animation	|CachedTagInstance	|null
+PhysicsModel	|CachedTagInstance (PhysicsModel)	|[[0x2BAD] 0x00002BAD](../PhysicsModel/2BAD.md)
+ReduceToL1SuperLow	|Single	|130
+ReduceToL2Low	|Single	|120
+ReduceToL3Medium	|Single	|0
+ReduceToL4High	|Single	|0
+ReduceToL5SuperHigh	|Single	|0
+LodModel	|CachedTagInstance	|null
+Variants	|TagBlock (Variants)	|[4](#variants)
+Unknown	|TagBlock (Unknown)	|0
+InstanceGroups	|TagBlock (InstanceGroups)	|0
+Materials	|TagBlock (Materials)	|[1](#materials)
+NewDamageInfo	|TagBlock (NewDamageInfo)	|0
+Targets	|TagBlock (Targets)	|0
+CollisionRegions	|TagBlock (CollisionRegions)	|[1](#collisionregions)
+Nodes	|TagBlock (Nodes)	|[1](#nodes)
+Unknown2	|UInt32	|0
+ModelObjectData	|TagBlock (ModelObjectData)	|[1](#modelobjectdata)
+PrimaryDialogue	|CachedTagInstance	|null
+SecondaryDialogue	|CachedTagInstance	|null
+Flags	|Enum (FlagsValue)	|null
+DefaultDialogueEffect	|StringId	|
+RenderOnlyNodeFlags1	|Enum (RenderOnlyNodeFlags1Value)	|null
+RenderOnlyNodeFlags2	|Enum (RenderOnlyNodeFlags2Value)	|null
+RenderOnlyNodeFlags3	|Enum (RenderOnlyNodeFlags3Value)	|null
+RenderOnlyNodeFlags4	|Enum (RenderOnlyNodeFlags4Value)	|null
+RenderOnlyNodeFlags5	|Enum (RenderOnlyNodeFlags5Value)	|null
+RenderOnlyNodeFlags6	|Enum (RenderOnlyNodeFlags6Value)	|null
+RenderOnlyNodeFlags7	|Enum (RenderOnlyNodeFlags7Value)	|null
+RenderOnlyNodeFlags8	|Enum (RenderOnlyNodeFlags8Value)	|null
+RenderOnlySectionFlags1	|Enum (RenderOnlySectionFlags1Value)	|null
+RenderOnlySectionFlags2	|Enum (RenderOnlySectionFlags2Value)	|null
+RenderOnlySectionFlags3	|Enum (RenderOnlySectionFlags3Value)	|null
+RenderOnlySectionFlags4	|Enum (RenderOnlySectionFlags4Value)	|null
+RenderOnlySectionFlags5	|Enum (RenderOnlySectionFlags5Value)	|null
+RenderOnlySectionFlags6	|Enum (RenderOnlySectionFlags6Value)	|null
+RenderOnlySectionFlags7	|Enum (RenderOnlySectionFlags7Value)	|null
+RenderOnlySectionFlags8	|Enum (RenderOnlySectionFlags8Value)	|null
+RuntimeFlags	|Enum (RuntimeFlagsValue)	|null
+ScenarioLoadParametersBlock	|Single	|0
+ScenarioLoadParametersBlock2	|Single	|0
+ScenarioLoadParametersBlock3	|Single	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|TagBlock (Unknown6)	|0
+Unknown7	|TagBlock (Unknown7)	|0
+Unknown8	|TagBlock (Unknown8)	|0
+ShieldImpactThirdPerson	|CachedTagInstance	|null
+ShieldImpactFirstPerson	|CachedTagInstance	|null
+OvershieldThirdPerson	|CachedTagInstance	|null
+OvershieldFirstPerson	|CachedTagInstance	|null
+
+
+## Tag Blocks
+
+### Variants
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|a
+VariantDialogue	|CachedTagInstance	|null
+DefaultDialogEffect	|StringId	|
+Unknown	|SByte	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+ModelRegion0Index	|SByte	|-1
+ModelRegion1Index	|SByte	|-1
+ModelRegion2Index	|SByte	|-1
+ModelRegion3Index	|SByte	|-1
+ModelRegion4Index	|SByte	|-1
+ModelRegion5Index	|SByte	|-1
+ModelRegion6Index	|SByte	|-1
+ModelRegion7Index	|SByte	|-1
+ModelRegion8Index	|SByte	|-1
+ModelRegion9Index	|SByte	|-1
+ModelRegion10Index	|SByte	|-1
+ModelRegion11Index	|SByte	|-1
+ModelRegion12Index	|SByte	|-1
+ModelRegion13Index	|SByte	|-1
+ModelRegion14Index	|SByte	|-1
+ModelRegion15Index	|SByte	|-1
+Regions	|TagBlock (Variants_Regions)	|0
+Objects	|TagBlock (Variants_Objects)	|0
+Unknown5	|Int32	|-1
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|b
+VariantDialogue	|CachedTagInstance	|null
+DefaultDialogEffect	|StringId	|
+Unknown	|SByte	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+ModelRegion0Index	|SByte	|-1
+ModelRegion1Index	|SByte	|-1
+ModelRegion2Index	|SByte	|-1
+ModelRegion3Index	|SByte	|-1
+ModelRegion4Index	|SByte	|-1
+ModelRegion5Index	|SByte	|-1
+ModelRegion6Index	|SByte	|-1
+ModelRegion7Index	|SByte	|-1
+ModelRegion8Index	|SByte	|-1
+ModelRegion9Index	|SByte	|-1
+ModelRegion10Index	|SByte	|-1
+ModelRegion11Index	|SByte	|-1
+ModelRegion12Index	|SByte	|-1
+ModelRegion13Index	|SByte	|-1
+ModelRegion14Index	|SByte	|-1
+ModelRegion15Index	|SByte	|-1
+Regions	|TagBlock (Variants_Regions)	|0
+Objects	|TagBlock (Variants_Objects)	|0
+Unknown5	|Int32	|-1
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|c
+VariantDialogue	|CachedTagInstance	|null
+DefaultDialogEffect	|StringId	|
+Unknown	|SByte	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+ModelRegion0Index	|SByte	|-1
+ModelRegion1Index	|SByte	|-1
+ModelRegion2Index	|SByte	|-1
+ModelRegion3Index	|SByte	|-1
+ModelRegion4Index	|SByte	|-1
+ModelRegion5Index	|SByte	|-1
+ModelRegion6Index	|SByte	|-1
+ModelRegion7Index	|SByte	|-1
+ModelRegion8Index	|SByte	|-1
+ModelRegion9Index	|SByte	|-1
+ModelRegion10Index	|SByte	|-1
+ModelRegion11Index	|SByte	|-1
+ModelRegion12Index	|SByte	|-1
+ModelRegion13Index	|SByte	|-1
+ModelRegion14Index	|SByte	|-1
+ModelRegion15Index	|SByte	|-1
+Regions	|TagBlock (Variants_Regions)	|0
+Objects	|TagBlock (Variants_Objects)	|0
+Unknown5	|Int32	|-1
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|d
+VariantDialogue	|CachedTagInstance	|null
+DefaultDialogEffect	|StringId	|
+Unknown	|SByte	|0
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+ModelRegion0Index	|SByte	|-1
+ModelRegion1Index	|SByte	|-1
+ModelRegion2Index	|SByte	|-1
+ModelRegion3Index	|SByte	|-1
+ModelRegion4Index	|SByte	|-1
+ModelRegion5Index	|SByte	|-1
+ModelRegion6Index	|SByte	|-1
+ModelRegion7Index	|SByte	|-1
+ModelRegion8Index	|SByte	|-1
+ModelRegion9Index	|SByte	|-1
+ModelRegion10Index	|SByte	|-1
+ModelRegion11Index	|SByte	|-1
+ModelRegion12Index	|SByte	|-1
+ModelRegion13Index	|SByte	|-1
+ModelRegion14Index	|SByte	|-1
+ModelRegion15Index	|SByte	|-1
+Regions	|TagBlock (Variants_Regions)	|0
+Objects	|TagBlock (Variants_Objects)	|0
+Unknown5	|Int32	|-1
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+### Materials
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|default
+Unknown	|Int16	|0
+DamageSectionIndex	|Int16	|-1
+Unknown2	|Int16	|0
+Unknown3	|Int16	|-1
+MaterialName	|StringId	|hard_metal_thick_cov
+GlobalMaterialIndex	|Int16	|76
+Unknown4	|Int16	|0
+
+
+### CollisionRegions
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|object
+CollisionRegionIndex	|SByte	|0
+PhysicsRegionIndex	|SByte	|0
+Unknown	|SByte	|0
+Unknown2	|SByte	|0
+Permutations	|TagBlock (CollisionRegions_Permutations)	|[1](#collisionregions_permutations)
+
+
+### CollisionRegions_Permutations
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|base
+Flags	|Enum (FlagsValue)	|null
+CollisionPermutationIndex	|SByte	|0
+PhysicsPermutationIndex	|SByte	|0
+Unknown	|SByte	|0
+
+
+### Nodes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|node
+ParentNode	|Int16	|-1
+FirstChildNode	|Int16	|-1
+NextSiblingNode	|Int16	|-1
+ImportNodeIndex	|Int16	|0
+DefaultTranslation	|RealPoint3d	|{ X: 0, Y: 0, Z: 0 }
+DefaultRotation	|RealQuaternion	|{ 0, 0, 0, -1 }
+DefaultScale	|Single	|1
+Inverse	|RealMatrix4x3	|BlamCore.Common.RealMatrix4x3
+
+
+### ModelObjectData
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Type	|Enum (TypeValue)	|null
+Unknown	|Int16	|0
+Offset	|RealPoint3d	|{ X: -0.000116736, Y: -0.00370018, Z: 0.457519 }
+Radius	|Single	|0.69873
+
+

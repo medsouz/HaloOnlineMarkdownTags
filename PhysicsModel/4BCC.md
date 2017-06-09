@@ -1,0 +1,1041 @@
+# 0x4BCC
+
+**Index:** ```0x4BCC```
+
+**Tag Group:** ```PhysicsModel (phmo)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (PhysicsModelFlags)	|null
+Mass	|Single	|0.1
+LowFrequencyDeactivationScale	|Single	|1
+HighFrequencyDeactivationScale	|Single	|1
+CustomShapeRadius	|Single	|0
+MaximumPenetrationDepthScale	|Single	|0
+ImportVersion	|SByte	|1
+Unused1	|Byte	|0
+Unused2	|Byte	|0
+Unused3	|Byte	|0
+DampedSpringMotors	|TagBlock (DampedSpringMotors)	|0
+PositionMotors	|TagBlock (PositionMotors)	|0
+PhantomTypes	|TagBlock (PhantomTypes)	|[4](#phantomtypes)
+PoweredChains	|TagBlock (PoweredChains)	|0
+NodeEdges	|TagBlock (NodeEdges)	|0
+RigidBodies	|TagBlock (RigidBodies)	|[1](#rigidbodies)
+Materials	|TagBlock (Materials)	|[4](#materials)
+Spheres	|TagBlock (Spheres)	|0
+MultiSpheres	|TagBlock (MultiSpheres)	|0
+Pills	|TagBlock (Pills)	|0
+Boxes	|TagBlock (Boxes)	|0
+Triangles	|TagBlock (Triangles)	|0
+Polyhedra	|TagBlock (Polyhedra)	|[4](#polyhedra)
+PolyhedronFourVectors	|TagBlock (PolyhedronFourVectors)	|[9](#polyhedronfourvectors)
+PolyhedronPlaneEquations	|TagBlock (PolyhedronPlaneEquations)	|[25](#polyhedronplaneequations)
+MassDistributions	|TagBlock (MassDistributions)	|0
+Lists	|TagBlock (Lists)	|[1](#lists)
+ListShapes	|TagBlock (ListShapes)	|[4](#listshapes)
+Mopps	|TagBlock (Mopps)	|0
+MoppCodes	|Byte[]	|System.Byte[]
+HingeConstraints	|TagBlock (HingeConstraints)	|0
+RagdollConstraints	|TagBlock (RagdollConstraints)	|0
+Regions	|TagBlock (Regions)	|[1](#regions)
+Nodes	|TagBlock (Nodes)	|[1](#nodes)
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|UInt32	|0
+Unknown14	|UInt32	|0
+Unknown15	|UInt32	|0
+Unknown16	|UInt32	|0
+LimitedHingeConstraints	|TagBlock (LimitedHingeConstraints)	|0
+BallAndSocketConstraintBlock	|Single	|0
+BallAndSocketConstraintBlock2	|Single	|0
+BallAndSocketConstraintBlock3	|Single	|0
+StiffSpringConstraintBlock	|Single	|0
+StiffSpringConstraintBlock2	|Single	|0
+StiffSpringConstraintBlock3	|Single	|0
+PrismaticConstraintBlock	|Single	|0
+PrismaticConstraintBlock2	|Single	|0
+PrismaticConstraintBlock3	|Single	|0
+Phantoms	|TagBlock (Phantoms)	|[4](#phantoms)
+
+
+## Tag Blocks
+
+### PhantomTypes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (PhantomTypeFlags)	|null
+MinimumSize	|Enum (SizeValue)	|null
+MaximumSize	|Enum (SizeValue)	|null
+MarkerName	|StringId	|
+AlignmentMarkerName	|StringId	|
+HookesLawE	|Single	|0
+LinearDeadRadius	|Single	|0
+CenterAcceleration	|Single	|0
+CenterMaxLevel	|Single	|0
+AxisAcceleration	|Single	|0
+AxisMaxVelocity	|Single	|0
+DirectionAcceleration	|Single	|0
+DirectionMaxVelocity	|Single	|0
+AlignmentHookesLawE	|Single	|0
+AlignmentAcceleration	|Single	|0
+AlignmentMaxVelocity	|Single	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (PhantomTypeFlags)	|null
+MinimumSize	|Enum (SizeValue)	|null
+MaximumSize	|Enum (SizeValue)	|null
+MarkerName	|StringId	|
+AlignmentMarkerName	|StringId	|
+HookesLawE	|Single	|0
+LinearDeadRadius	|Single	|0
+CenterAcceleration	|Single	|0
+CenterMaxLevel	|Single	|0
+AxisAcceleration	|Single	|0
+AxisMaxVelocity	|Single	|0
+DirectionAcceleration	|Single	|25
+DirectionMaxVelocity	|Single	|25
+AlignmentHookesLawE	|Single	|0
+AlignmentAcceleration	|Single	|0
+AlignmentMaxVelocity	|Single	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (PhantomTypeFlags)	|null
+MinimumSize	|Enum (SizeValue)	|null
+MaximumSize	|Enum (SizeValue)	|null
+MarkerName	|StringId	|foreground_73
+AlignmentMarkerName	|StringId	|
+HookesLawE	|Single	|0
+LinearDeadRadius	|Single	|0
+CenterAcceleration	|Single	|0
+CenterMaxLevel	|Single	|0
+AxisAcceleration	|Single	|0
+AxisMaxVelocity	|Single	|0
+DirectionAcceleration	|Single	|0
+DirectionMaxVelocity	|Single	|10
+AlignmentHookesLawE	|Single	|0
+AlignmentAcceleration	|Single	|0
+AlignmentMaxVelocity	|Single	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (PhantomTypeFlags)	|null
+MinimumSize	|Enum (SizeValue)	|null
+MaximumSize	|Enum (SizeValue)	|null
+MarkerName	|StringId	|
+AlignmentMarkerName	|StringId	|foreground_73
+HookesLawE	|Single	|2.026558E-41
+LinearDeadRadius	|Single	|0
+CenterAcceleration	|Single	|0
+CenterMaxLevel	|Single	|0
+AxisAcceleration	|Single	|0
+AxisMaxVelocity	|Single	|0
+DirectionAcceleration	|Single	|0
+DirectionMaxVelocity	|Single	|0
+AlignmentHookesLawE	|Single	|0
+AlignmentAcceleration	|Single	|0
+AlignmentMaxVelocity	|Single	|0
+
+
+### RigidBodies
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Node	|Int16	|0
+Region	|Int16	|0
+Permutations	|Int16	|0
+Unknown	|Int16	|0
+BoundingSphereOffset	|RealPoint3d	|{ X: 0, Y: 0, Z: 0 }
+BoundingSphereRadius	|Single	|15.4053
+Flags	|UInt16	|0
+MotionType	|Enum (MotionTypeValue)	|null
+NoPhantomPowerAltRigidBody	|Int16	|-1
+Size	|Enum (SizeValue)	|null
+InertiaTensorScale	|Single	|1
+LinearDampening	|Single	|0
+AngularDampening	|Single	|0.05
+CenterOfMassOffsetX	|Single	|0
+CenterOfMassOffsetY	|Single	|0
+CenterOfMassOffsetZ	|Single	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|0
+Mass	|Single	|0
+CenterOfMassI	|Single	|0
+CenterOfMassJ	|Single	|0
+CenterOfMassK	|Single	|0
+CenterOfMassRadius	|Single	|0
+InertiaTensorXI	|Single	|0
+InertiaTensorXJ	|Single	|0
+InertiaTensorXK	|Single	|0
+InertiaTensorXRadius	|Single	|0
+InertiaTensorYI	|Single	|0
+InertiaTensorYJ	|Single	|0
+InertiaTensorYK	|Single	|0
+InertiaTensorYRadius	|Single	|0
+InertiaTensorZI	|Single	|0
+InertiaTensorZJ	|Single	|0
+InertiaTensorZK	|Single	|0
+InertiaTensorZRadius	|Single	|0
+BoundingSpherePad	|Single	|0
+Unknown10	|UInt32	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|65536
+
+
+### Materials
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|phantom0
+MaterialName	|StringId	|energy
+PhantomType	|Int16	|0
+Flags	|Enum (MaterialFlags)	|null
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|phantom1
+MaterialName	|StringId	|energy
+PhantomType	|Int16	|1
+Flags	|Enum (MaterialFlags)	|null
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|phantom2
+MaterialName	|StringId	|energy
+PhantomType	|Int16	|2
+Flags	|Enum (MaterialFlags)	|null
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|phantom3
+MaterialName	|StringId	|energy
+PhantomType	|Int16	|3
+Flags	|Enum (MaterialFlags)	|null
+
+
+### Polyhedra
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|launch_volume_fast
+MaterialIndex	|SByte	|0
+Unknown	|SByte	|0
+GlobalMaterialIndex	|Int16	|144
+RelativeMassScale	|Single	|1
+Friction	|Single	|0.2
+Restitution	|Single	|0.7
+Volume	|Single	|0.389628
+Mass	|Single	|0.389628
+OverallShapeIndex	|Int16	|0
+PhantomIndex	|SByte	|0
+InteractionUnknown	|SByte	|-1
+Unknown2	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|32
+Unknown3	|Int32	|8
+Radius	|Single	|0.0164
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+AabbHalfExtentsI	|Single	|0.4336
+AabbHalfExtentsJ	|Single	|0.402098
+AabbHalfExtentsK	|Single	|0.408689
+AabbHalfExtentsRadius	|Single	|0
+AabbCenterI	|Single	|0
+AabbCenterJ	|Single	|-0.618497
+AabbCenterK	|Single	|0.523867
+AabbCenterRadius	|Single	|0
+Unknown7	|UInt32	|0
+FourVectorsSize	|Int32	|2
+FourVectorsCapacity	|UInt32	|2147483650
+Unknown8	|Int32	|8
+Unknown9	|UInt32	|0
+PlaneEquationsSize	|Int32	|6
+PlaneEquationsCapacity	|UInt32	|2147483654
+Unknown10	|UInt32	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|launch_volume_slow
+MaterialIndex	|SByte	|1
+Unknown	|SByte	|0
+GlobalMaterialIndex	|Int16	|144
+RelativeMassScale	|Single	|1
+Friction	|Single	|0.2
+Restitution	|Single	|0.7
+Volume	|Single	|20.9102
+Mass	|Single	|20.9102
+OverallShapeIndex	|Int16	|1
+PhantomIndex	|SByte	|1
+InteractionUnknown	|SByte	|-1
+Unknown2	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|160
+Unknown3	|Int32	|8
+Radius	|Single	|0.0164
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+AabbHalfExtentsI	|Single	|0.5761741
+AabbHalfExtentsJ	|Single	|3.918587
+AabbHalfExtentsK	|Single	|3.231653
+AabbHalfExtentsRadius	|Single	|0
+AabbCenterI	|Single	|0.005503535
+AabbCenterJ	|Single	|2.897992
+AabbCenterK	|Single	|3.346831
+AabbCenterRadius	|Single	|0
+Unknown7	|UInt32	|0
+FourVectorsSize	|Int32	|3
+FourVectorsCapacity	|UInt32	|2147483651
+Unknown8	|Int32	|10
+Unknown9	|UInt32	|0
+PlaneEquationsSize	|Int32	|7
+PlaneEquationsCapacity	|UInt32	|2147483655
+Unknown10	|UInt32	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|launch_volume_slow2
+MaterialIndex	|SByte	|2
+Unknown	|SByte	|0
+GlobalMaterialIndex	|Int16	|144
+RelativeMassScale	|Single	|1
+Friction	|Single	|0.2
+Restitution	|Single	|0.7
+Volume	|Single	|13.53185
+Mass	|Single	|13.53185
+OverallShapeIndex	|Int16	|2
+PhantomIndex	|SByte	|2
+InteractionUnknown	|SByte	|-1
+Unknown2	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|288
+Unknown3	|Int32	|8
+Radius	|Single	|0.0164
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+AabbHalfExtentsI	|Single	|0.7336005
+AabbHalfExtentsJ	|Single	|2.6846
+AabbHalfExtentsK	|Single	|1.724133
+AabbHalfExtentsRadius	|Single	|0
+AabbCenterI	|Single	|0.01679999
+AabbCenterJ	|Single	|8.183589
+AabbCenterK	|Single	|6.289332
+AabbCenterRadius	|Single	|0
+Unknown7	|UInt32	|0
+FourVectorsSize	|Int32	|2
+FourVectorsCapacity	|UInt32	|2147483650
+Unknown8	|Int32	|8
+Unknown9	|UInt32	|0
+PlaneEquationsSize	|Int32	|6
+PlaneEquationsCapacity	|UInt32	|2147483654
+Unknown10	|UInt32	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|launch_volume_slow3
+MaterialIndex	|SByte	|3
+Unknown	|SByte	|0
+GlobalMaterialIndex	|Int16	|144
+RelativeMassScale	|Single	|1
+Friction	|Single	|0.2
+Restitution	|Single	|0.7
+Volume	|Single	|6.388244
+Mass	|Single	|6.388244
+OverallShapeIndex	|Int16	|3
+PhantomIndex	|SByte	|3
+InteractionUnknown	|SByte	|-1
+Unknown2	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|416
+Unknown3	|Int32	|8
+Radius	|Single	|0.0164
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+AabbHalfExtentsI	|Single	|0.7336003
+AabbHalfExtentsJ	|Single	|1.543259
+AabbHalfExtentsK	|Single	|0.8614798
+AabbHalfExtentsRadius	|Single	|0
+AabbCenterI	|Single	|0.01679981
+AabbCenterJ	|Single	|11.5106
+AabbCenterK	|Single	|7.037873
+AabbCenterRadius	|Single	|0
+Unknown7	|UInt32	|0
+FourVectorsSize	|Int32	|2
+FourVectorsCapacity	|UInt32	|2147483650
+Unknown8	|Int32	|8
+Unknown9	|UInt32	|0
+PlaneEquationsSize	|Int32	|6
+PlaneEquationsCapacity	|UInt32	|2147483654
+Unknown10	|UInt32	|0
+
+
+### PolyhedronFourVectors
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|-0.4336
+FourVectorsXJ	|Single	|-0.4336
+FourVectorsXK	|Single	|-0.4336
+FourVectorsXRadius	|Single	|-0.4336
+FourVectorsYI	|Single	|-1.02059
+FourVectorsYJ	|Single	|-1.02059
+FourVectorsYK	|Single	|-0.2164
+FourVectorsYRadius	|Single	|-0.2163987
+FourVectorsZI	|Single	|0.115178
+FourVectorsZJ	|Single	|0.932557
+FourVectorsZK	|Single	|0.115178
+FourVectorsZRadius	|Single	|0.4151763
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|0.4336
+FourVectorsXJ	|Single	|0.4336
+FourVectorsXK	|Single	|0.4336
+FourVectorsXRadius	|Single	|0.4336
+FourVectorsYI	|Single	|-1.020595
+FourVectorsYJ	|Single	|-1.020594
+FourVectorsYK	|Single	|-0.2164002
+FourVectorsYRadius	|Single	|-0.2163987
+FourVectorsZI	|Single	|0.1151781
+FourVectorsZJ	|Single	|0.932557
+FourVectorsZK	|Single	|0.115178
+FourVectorsZRadius	|Single	|0.4151763
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|-0.5706706
+FourVectorsXJ	|Single	|-0.5706706
+FourVectorsXK	|Single	|-0.5706706
+FourVectorsXRadius	|Single	|-0.5706704
+FourVectorsYI	|Single	|-1.020595
+FourVectorsYJ	|Single	|-1.020594
+FourVectorsYK	|Single	|-0.1836002
+FourVectorsYRadius	|Single	|5.776863
+FourVectorsZI	|Single	|1.972548
+FourVectorsZJ	|Single	|0.1151781
+FourVectorsZK	|Single	|0.1151781
+FourVectorsZRadius	|Single	|6.578485
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|-0.5706704
+FourVectorsXJ	|Single	|0.5816774
+FourVectorsXK	|Single	|0.5816774
+FourVectorsXRadius	|Single	|0.5816774
+FourVectorsYI	|Single	|6.816579
+FourVectorsYJ	|Single	|-1.020594
+FourVectorsYK	|Single	|-1.020594
+FourVectorsYRadius	|Single	|-0.1836002
+FourVectorsZI	|Single	|4.643012
+FourVectorsZJ	|Single	|0.1151783
+FourVectorsZK	|Single	|1.972548
+FourVectorsZRadius	|Single	|0.1151781
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|0.5816777
+FourVectorsXJ	|Single	|0.5816777
+FourVectorsXK	|Single	|0.5816777
+FourVectorsXRadius	|Single	|0.5816777
+FourVectorsYI	|Single	|5.776862
+FourVectorsYJ	|Single	|6.816579
+FourVectorsYK	|Single	|6.816579
+FourVectorsYRadius	|Single	|6.816579
+FourVectorsZI	|Single	|6.578485
+FourVectorsZJ	|Single	|4.643012
+FourVectorsZK	|Single	|4.643012
+FourVectorsZRadius	|Single	|4.643012
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|-0.7168005
+FourVectorsXJ	|Single	|-0.7168004
+FourVectorsXK	|Single	|-0.7167996
+FourVectorsXRadius	|Single	|-0.7167994
+FourVectorsYI	|Single	|5.49899
+FourVectorsYJ	|Single	|6.01202
+FourVectorsYK	|Single	|10.39376
+FourVectorsYRadius	|Single	|10.86819
+FourVectorsZI	|Single	|5.974738
+FourVectorsZJ	|Single	|4.565199
+FourVectorsZK	|Single	|8.013466
+FourVectorsZRadius	|Single	|5.990398
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|0.7503995
+FourVectorsXJ	|Single	|0.7503996
+FourVectorsXK	|Single	|0.7504004
+FourVectorsXRadius	|Single	|0.7504005
+FourVectorsYI	|Single	|5.498989
+FourVectorsYJ	|Single	|6.012019
+FourVectorsYK	|Single	|10.39376
+FourVectorsYRadius	|Single	|10.86819
+FourVectorsZI	|Single	|5.974738
+FourVectorsZJ	|Single	|4.565199
+FourVectorsZK	|Single	|8.013466
+FourVectorsZRadius	|Single	|5.990398
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|-0.7168005
+FourVectorsXJ	|Single	|-0.7168004
+FourVectorsXK	|Single	|-0.7168
+FourVectorsXRadius	|Single	|-0.7168
+FourVectorsYI	|Single	|9.96734
+FourVectorsYJ	|Single	|10.09807
+FourVectorsYK	|Single	|12.92312
+FourVectorsYRadius	|Single	|13.05386
+FourVectorsZI	|Single	|7.637886
+FourVectorsZJ	|Single	|6.176393
+FourVectorsZK	|Single	|7.899353
+FourVectorsZRadius	|Single	|6.43786
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FourVectorsXI	|Single	|0.7503996
+FourVectorsXJ	|Single	|0.7503997
+FourVectorsXK	|Single	|0.7504001
+FourVectorsXRadius	|Single	|0.7504001
+FourVectorsYI	|Single	|9.96734
+FourVectorsYJ	|Single	|10.09807
+FourVectorsYK	|Single	|12.92312
+FourVectorsYRadius	|Single	|13.05386
+FourVectorsZI	|Single	|7.637886
+FourVectorsZJ	|Single	|6.176393
+FourVectorsZK	|Single	|7.899353
+FourVectorsZRadius	|Single	|6.43786
+
+
+### PolyhedronPlaneEquations
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-1
+Unknown2	|Single	|0
+Unknown3	|Single	|0
+Unknown4	|Single	|-0.4336
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|-1
+Unknown3	|Single	|1.458434E-07
+Unknown4	|Single	|-1.020595
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|-7.411721E-08
+Unknown3	|Single	|-1
+Unknown4	|Single	|0.115178
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0.5410519
+Unknown3	|Single	|0.8409892
+Unknown4	|Single	|-0.2320758
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|1
+Unknown3	|Single	|-4.967083E-06
+Unknown4	|Single	|0.2164008
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0.9999999
+Unknown2	|Single	|0
+Unknown3	|Single	|0
+Unknown4	|Single	|-0.4335999
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-1
+Unknown2	|Single	|0
+Unknown3	|Single	|5.265621E-08
+Unknown4	|Single	|-0.5706706
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-6.985668E-07
+Unknown2	|Single	|-0.5609489
+Unknown3	|Single	|0.8278505
+Unknown4	|Single	|-2.205477
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0
+Unknown3	|Single	|-1
+Unknown4	|Single	|0.1151781
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0.543108
+Unknown3	|Single	|-0.8396628
+Unknown4	|Single	|0.1964259
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|5.311633E-14
+Unknown2	|Single	|-1
+Unknown3	|Single	|-2.567271E-07
+Unknown4	|Single	|-1.020594
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|2.014485E-08
+Unknown2	|Single	|0.8809384
+Unknown3	|Single	|0.473231
+Unknown4	|Single	|-8.202203
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0.9999999
+Unknown2	|Single	|-2.527632E-08
+Unknown3	|Single	|-1.357819E-08
+Unknown4	|Single	|-0.5816774
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-1
+Unknown2	|Single	|1.892015E-07
+Unknown3	|Single	|-1.570956E-08
+Unknown4	|Single	|-0.7168015
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-6.107966E-07
+Unknown2	|Single	|-0.9396927
+Unknown3	|Single	|-0.3420201
+Unknown4	|Single	|7.21084
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-2.499194E-07
+Unknown2	|Single	|-0.3844936
+Unknown3	|Single	|0.9231277
+Unknown4	|Single	|-3.401119
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0.2816051
+Unknown3	|Single	|-0.9595305
+Unknown4	|Single	|2.687432
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0.9735868
+Unknown3	|Single	|0.228317
+Unknown4	|Single	|-11.94883
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0.9999999
+Unknown2	|Single	|-1.884345E-07
+Unknown3	|Single	|1.473501E-08
+Unknown4	|Single	|-0.7503985
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-1
+Unknown2	|Single	|1.672156E-07
+Unknown3	|Single	|-6.660904E-08
+Unknown4	|Single	|-0.7168016
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|-6.956749E-08
+Unknown2	|Single	|-0.08811535
+Unknown3	|Single	|0.9961102
+Unknown4	|Single	|-6.7299
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|-0.9960231
+Unknown3	|Single	|-0.08909629
+Unknown4	|Single	|10.60821
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|0
+Unknown2	|Single	|0.08811555
+Unknown3	|Single	|-0.9961103
+Unknown4	|Single	|5.262571
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|6.474111E-07
+Unknown2	|Single	|0.996023
+Unknown3	|Single	|0.08909633
+Unknown4	|Single	|-13.57553
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Single	|1
+Unknown2	|Single	|-1.672157E-07
+Unknown3	|Single	|6.660903E-08
+Unknown4	|Single	|-0.7503985
+
+
+### Lists
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|0
+Unknown2	|Int32	|10
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+ChildShapesSize	|Int32	|4
+ChildShapesCapacity	|UInt32	|2147483652
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|1061158920
+Unknown10	|UInt32	|1088534350
+Unknown11	|UInt32	|1081985914
+Unknown12	|UInt32	|1015437643
+Unknown13	|UInt32	|1015652384
+Unknown14	|UInt32	|1086359614
+Unknown15	|UInt32	|1082265325
+Unknown16	|UInt32	|0
+
+
+### ListShapes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|0
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|3419130827
+Unknown3	|Int32	|4
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|1
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|3419130827
+Unknown3	|Int32	|4
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|2
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|3419130827
+Unknown3	|Int32	|4
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|3
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|3419130827
+Unknown3	|Int32	|4
+
+
+### Regions
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|default
+Permutations	|TagBlock (Regions_Permutations)	|[1](#regions_permutations)
+
+
+### Regions_Permutations
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|default
+RigidBodies	|TagBlock (Regions_Permutations_RigidBodies)	|[1](#regions_permutations_rigidbodies)
+
+
+### Regions_Permutations_RigidBodies
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+RigidBodyIndex	|Int16	|0
+
+
+### Nodes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|lift
+Flags	|UInt16	|0
+Parent	|Int16	|-1
+Sibling	|Int16	|-1
+Child	|Int16	|-1
+
+
+### Phantoms
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|0
+Unknown2	|Int32	|25
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|Int32	|0
+Size2	|Int16	|0
+Count2	|Int16	|128
+Offset2	|Int32	|0
+Unknown6	|Int32	|29
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|0
+Unknown2	|Int32	|25
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|1
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|Int32	|0
+Size2	|Int16	|0
+Count2	|Int16	|128
+Offset2	|Int32	|1
+Unknown6	|Int32	|29
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|0
+Unknown2	|Int32	|25
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|2
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|Int32	|0
+Size2	|Int16	|0
+Count2	|Int16	|128
+Offset2	|Int32	|2
+Unknown6	|Int32	|29
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Size	|Int16	|0
+Count	|Int16	|128
+Offset	|Int32	|0
+Unknown2	|Int32	|25
+ShapeType	|Enum (ShapeTypeValue)	|null
+ShapeIndex	|Int16	|3
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|Int32	|0
+Size2	|Int16	|0
+Count2	|Int16	|128
+Offset2	|Int32	|3
+Unknown6	|Int32	|29
+
+

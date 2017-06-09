@@ -1,0 +1,39 @@
+# 0x4CCF
+
+**Index:** ```0x4CCF```
+
+**Tag Group:** ```DecoratorSet (dctr)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+Model	|CachedTagInstance (RenderModel)	|[0x4CD0](../RenderModel/4CD0.md)
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|Int32	|4
+Texture	|CachedTagInstance (Bitmap)	|[0x4CD1](../Bitmap/4CD1.md)
+AffectsVisibility	|Int16	|257
+Unknown5	|Int16	|0
+ColorR	|Single	|0.48
+ColorG	|Single	|0.24
+ColorB	|Single	|0.28
+Unknown6	|UInt32	|1056964608
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+Unknown10	|UInt32	|0
+BrightnessBase	|Single	|0
+BrightnessShadow	|Single	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|Single	|15
+Unknown14	|Single	|20
+Unknown15	|Single	|0
+Unknown16	|Single	|4
+Unknown17	|UInt32	|0
+Unknown18	|UInt32	|0
+Unknown19	|UInt32	|0
+
+

@@ -1,0 +1,61 @@
+# [0x2EAD] levels\multi\guardian\fx\holy_light_lift\holy_light_lift
+
+**Name:** ```levels\multi\guardian\fx\holy_light_lift\holy_light_lift```
+
+**Index:** ```0x2EAD```
+
+**Tag Group:** ```EffectScenery (efsc)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+ObjectTypeHaloOnline	|Enum (GameObjectTypeHalo3ODST)	|null
+Unused1	|SByte	|0
+ObjectFlags	|Enum (GameObjectFlags)	|null
+BoundingRadius	|Single	|1
+BoundingOffset	|RealPoint3d	|{ X: 0, Y: 0, Z: 0 }
+AccelerationScale	|Single	|0
+LightmapShadowMode	|Enum (LightmapShadowModeValue)	|null
+SweetenerSize	|Enum (SweetenerSizeValue)	|null
+WaterDensity	|Enum (WaterDensityValue)	|null
+DynamicLightSphereRadius	|Single	|0
+DynamicLightSphereOffset	|RealPoint3d	|{ X: 0, Y: 0, Z: 0 }
+DefaultModelVariant	|StringId	|
+Model	|CachedTagInstance (Model)	|[[0x3219] fx\null_object\null_up\null_up](../Model/3219.md)
+CrateObject	|CachedTagInstance	|null
+CollisionDamage	|CachedTagInstance	|null
+EarlyMoverProperties	|TagBlock (EarlyMoverProperties)	|0
+CreationEffect	|CachedTagInstance	|null
+MaterialEffects	|CachedTagInstance	|null
+ArmorSounds	|CachedTagInstance	|null
+MeleeImpact	|CachedTagInstance	|null
+AiProperties	|TagBlock (AiProperties)	|0
+Functions	|TagBlock (Functions)	|0
+HudTextMessageIndex	|Int16	|0
+Attachments	|TagBlock (Attachments)	|[1](#attachments)
+Widgets	|TagBlock (Widgets)	|0
+ChangeColors	|TagBlock (ChangeColors)	|0
+NodeMaps	|TagBlock (NodeMaps)	|0
+MultiplayerObjectProperties	|TagBlock (MultiplayerObjectProperties)	|0
+RevivingEquipment	|TagBlock (RevivingEquipment)	|0
+ModelObjectData	|TagBlock (ModelObjectData)	|0
+
+
+## Tag Blocks
+
+### Attachments
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+AtlasFlags	|Enum (AtlasFlagsValue)	|null
+Attachment2	|CachedTagInstance (Effect)	|[[0x321A] 0x0000321A](../Effect/321A.md)
+Marker	|StringId	|marker
+ChangeColor	|Enum (ChangeColorValue)	|null
+Unknown	|Int16	|0
+PrimaryScale	|StringId	|
+SecondaryScale	|StringId	|
+
+

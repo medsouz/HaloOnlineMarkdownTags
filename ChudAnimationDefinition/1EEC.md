@@ -1,0 +1,118 @@
+# [0x1EEC] 0x00001EEC
+
+**Name:** ```0x00001EEC```
+
+**Index:** ```0x1EEC```
+
+**Tag Group:** ```ChudAnimationDefinition (chad)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|UInt16	|0
+Unknown	|Int16	|0
+Position	|TagBlock (Position)	|[1](#position)
+Rotation	|TagBlock (Rotation)	|[1](#rotation)
+Size	|TagBlock (Size)	|0
+Color	|TagBlock (Color)	|0
+Alpha	|TagBlock (Alpha)	|[1](#alpha)
+AlphaUnknown	|TagBlock (AlphaUnknown)	|0
+Bitmap	|TagBlock (Bitmap)	|0
+NumberOfFrames	|Int32	|50
+
+
+## Tag Blocks
+
+### Position
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Animation	|TagBlock (Position_Animation)	|[2](#position_animation)
+Function	|Byte[]	|System.Byte[]
+
+
+### Position_Animation
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|0
+PositionX	|Single	|0
+PositionY	|Single	|0
+PositionZ	|Single	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|50
+PositionX	|Single	|-50
+PositionY	|Single	|0
+PositionZ	|Single	|0
+
+
+### Rotation
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Animation	|TagBlock (Rotation_Animation)	|[2](#rotation_animation)
+Function	|Byte[]	|System.Byte[]
+
+
+### Rotation_Animation
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|0
+XAngle	|Angle	|{ Degrees: 90, Radians: 1.570796 }
+YAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+ZAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|50
+XAngle	|Angle	|{ Degrees: 90, Radians: 1.570796 }
+YAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+ZAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+
+
+### Alpha
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Animation	|TagBlock (Alpha_Animation)	|[2](#alpha_animation)
+Function	|Byte[]	|System.Byte[]
+
+
+### Alpha_Animation
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|0
+Alpha	|Single	|0.4
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+FrameNumber	|Int32	|50
+Alpha	|Single	|1
+
+

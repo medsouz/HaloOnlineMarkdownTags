@@ -1,0 +1,529 @@
+# [0x2BFA] 0x00002BFA
+
+**Name:** ```0x00002BFA```
+
+**Index:** ```0x2BFA```
+
+**Tag Group:** ```Sound (snd!)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+Flags	|Enum (FlagsValue)	|null
+Unknown1	|Int16	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+SoundClass	|Enum (SoundClassValue)	|null
+SampleRate	|Enum (SampleRateValue)	|null
+Unknown6	|SByte	|0
+ImportType	|Enum (ImportTypeValue)	|null
+PlaybackParameters	|PlaybackParameter	|BlamCore.TagDefinitions.SoundCacheFileGestalt+PlaybackParameter
+Scale	|Scale	|BlamCore.TagDefinitions.SoundCacheFileGestalt+Scale
+PlatformCodec	|PlatformCodecBlock	|BlamCore.TagDefinitions.SoundCacheFileGestalt+PlatformCodecBlock
+Promotion	|Promotion	|BlamCore.TagDefinitions.SoundCacheFileGestalt+Promotion
+PitchRanges	|TagBlock (PitchRanges)	|[1](#pitchranges)
+CustomPlayBacks	|TagBlock (CustomPlayBacks)	|0
+ExtraInfo	|TagBlock (ExtraInfo)	|[1](#extrainfo)
+Languages	|TagBlock (Languages)	|0
+Resource	|ResourceReference	|BlamCore.Cache.ResourceReference
+
+
+## Tag Blocks
+
+### PitchRanges
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ImportName	|StringId	||default|
+PitchRangeParameters	|PitchRangeParametersBlock	|BlamCore.TagDefinitions.SoundCacheFileGestalt+PitchRangeParametersBlock
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|Int16	|-1
+Unknown6	|Int16	|-1
+PermutationCount	|Byte	|4
+Unknown7	|Byte	|0
+Unknown8	|Int16	|-1
+Permutations	|TagBlock (PitchRanges_Permutations)	|[4](#pitchranges_permutations)
+
+
+### PitchRanges_Permutations
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ImportName	|StringId	|bomb_idle_var4_1
+SkipFraction	|Bounds`1	|{ Lower: 0, Upper: 0 }
+SampleSize	|UInt32	|180224
+PermutationNumber	|UInt32	|0
+IsNotFirstPermutation	|UInt32	|0
+PermutationChunks	|TagBlock (PitchRanges_Permutations_PermutationChunks)	|[1](#pitchranges_permutations_permutationchunks)
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ImportName	|StringId	|bomb_idle_var4_2
+SkipFraction	|Bounds`1	|{ Lower: 0, Upper: 0 }
+SampleSize	|UInt32	|183296
+PermutationNumber	|UInt32	|1
+IsNotFirstPermutation	|UInt32	|1
+PermutationChunks	|TagBlock (PitchRanges_Permutations_PermutationChunks)	|[1](#pitchranges_permutations_permutationchunks)
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ImportName	|StringId	|bomb_idle_var4_3
+SkipFraction	|Bounds`1	|{ Lower: 0, Upper: 0 }
+SampleSize	|UInt32	|185344
+PermutationNumber	|UInt32	|2
+IsNotFirstPermutation	|UInt32	|1
+PermutationChunks	|TagBlock (PitchRanges_Permutations_PermutationChunks)	|[1](#pitchranges_permutations_permutationchunks)
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+ImportName	|StringId	|bomb_idle_var4_4
+SkipFraction	|Bounds`1	|{ Lower: 0, Upper: 0 }
+SampleSize	|UInt32	|194048
+PermutationNumber	|UInt32	|3
+IsNotFirstPermutation	|UInt32	|1
+PermutationChunks	|TagBlock (PitchRanges_Permutations_PermutationChunks)	|[1](#pitchranges_permutations_permutationchunks)
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+
+
+### PitchRanges_Permutations_PermutationChunks
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Offset	|UInt32	|0
+Size	|UInt16	|16418
+Unknown2	|Byte	|1
+Unknown3	|Byte	|4
+RuntimeIndex	|Int32	|-1
+UnknownA	|Int32	|0
+UnknownSize	|Int32	|0
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Offset	|UInt32	|81954
+Size	|UInt16	|17984
+Unknown2	|Byte	|1
+Unknown3	|Byte	|4
+RuntimeIndex	|Int32	|-1
+UnknownA	|Int32	|0
+UnknownSize	|Int32	|0
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Offset	|UInt32	|165474
+Size	|UInt16	|18506
+Unknown2	|Byte	|1
+Unknown3	|Byte	|4
+RuntimeIndex	|Int32	|-1
+UnknownA	|Int32	|0
+UnknownSize	|Int32	|0
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Offset	|UInt32	|249516
+Size	|UInt16	|22682
+Unknown2	|Byte	|1
+Unknown3	|Byte	|4
+RuntimeIndex	|Int32	|-1
+UnknownA	|Int32	|0
+UnknownSize	|Int32	|0
+
+
+### ExtraInfo
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+LanguagePermutations	|TagBlock (ExtraInfo_LanguagePermutations)	|[4](#extrainfo_languagepermutations)
+EncodedPermutationSections	|TagBlock (ExtraInfo_EncodedPermutationSections)	|0
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+
+
+### ExtraInfo_LanguagePermutations
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+RawInfo	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo)	|[1](#extrainfo_languagepermutations_rawinfo)
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+RawInfo	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo)	|[1](#extrainfo_languagepermutations_rawinfo)
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+RawInfo	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo)	|[1](#extrainfo_languagepermutations_rawinfo)
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+RawInfo	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo)	|[1](#extrainfo_languagepermutations_rawinfo)
+
+
+### ExtraInfo_LanguagePermutations_RawInfo
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+SkipFractionName	|StringId	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+Unknown10	|UInt32	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|UInt32	|0
+Unknown14	|UInt32	|0
+Unknown15	|UInt32	|0
+Unknown16	|UInt32	|0
+Unknown17	|UInt32	|0
+Unknown18	|UInt32	|0
+UnknownList	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo_UnknownList)	|[3](#extrainfo_languagepermutations_rawinfo_unknownlist)
+Compression	|Int16	|8
+Language	|Byte	|0
+Unknown19	|Byte	|0
+SampleCount	|UInt32	|180224
+ResourceSampleOffset	|UInt32	|0
+ResourceSampleSize	|UInt32	|81954
+Unknown20	|UInt32	|0
+Unknown21	|UInt32	|0
+Unknown22	|UInt32	|0
+Unknown23	|UInt32	|0
+Unknown24	|Int32	|480
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+SkipFractionName	|StringId	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+Unknown10	|UInt32	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|UInt32	|0
+Unknown14	|UInt32	|0
+Unknown15	|UInt32	|0
+Unknown16	|UInt32	|0
+Unknown17	|UInt32	|0
+Unknown18	|UInt32	|0
+UnknownList	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo_UnknownList)	|[4](#extrainfo_languagepermutations_rawinfo_unknownlist)
+Compression	|Int16	|8
+Language	|Byte	|0
+Unknown19	|Byte	|0
+SampleCount	|UInt32	|183296
+ResourceSampleOffset	|UInt32	|81954
+ResourceSampleSize	|UInt32	|83520
+Unknown20	|UInt32	|0
+Unknown21	|UInt32	|0
+Unknown22	|UInt32	|0
+Unknown23	|UInt32	|0
+Unknown24	|Int32	|480
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+SkipFractionName	|StringId	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+Unknown10	|UInt32	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|UInt32	|0
+Unknown14	|UInt32	|0
+Unknown15	|UInt32	|0
+Unknown16	|UInt32	|0
+Unknown17	|UInt32	|0
+Unknown18	|UInt32	|0
+UnknownList	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo_UnknownList)	|[4](#extrainfo_languagepermutations_rawinfo_unknownlist)
+Compression	|Int16	|8
+Language	|Byte	|0
+Unknown19	|Byte	|0
+SampleCount	|UInt32	|185344
+ResourceSampleOffset	|UInt32	|165474
+ResourceSampleSize	|UInt32	|84042
+Unknown20	|UInt32	|0
+Unknown21	|UInt32	|0
+Unknown22	|UInt32	|0
+Unknown23	|UInt32	|0
+Unknown24	|Int32	|480
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+SkipFractionName	|StringId	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+Unknown10	|UInt32	|0
+Unknown11	|UInt32	|0
+Unknown12	|UInt32	|0
+Unknown13	|UInt32	|0
+Unknown14	|UInt32	|0
+Unknown15	|UInt32	|0
+Unknown16	|UInt32	|0
+Unknown17	|UInt32	|0
+Unknown18	|UInt32	|0
+UnknownList	|TagBlock (ExtraInfo_LanguagePermutations_RawInfo_UnknownList)	|[3](#extrainfo_languagepermutations_rawinfo_unknownlist)
+Compression	|Int16	|8
+Language	|Byte	|0
+Unknown19	|Byte	|0
+SampleCount	|UInt32	|194048
+ResourceSampleOffset	|UInt32	|249516
+ResourceSampleSize	|UInt32	|88218
+Unknown20	|UInt32	|0
+Unknown21	|UInt32	|0
+Unknown22	|UInt32	|0
+Unknown23	|UInt32	|0
+Unknown24	|Int32	|480
+
+
+### ExtraInfo_LanguagePermutations_RawInfo_UnknownList
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|384
+Unknown2	|UInt32	|64000
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|63616
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|16384
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|53248
+Unknown3	|UInt32	|63616
+Unknown4	|UInt32	|116864
+Unknown5	|UInt32	|16384
+Unknown6	|UInt32	|32768
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|63360
+Unknown3	|UInt32	|116864
+Unknown4	|UInt32	|180224
+Unknown5	|UInt32	|32768
+Unknown6	|UInt32	|49152
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|384
+Unknown2	|UInt32	|61440
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|61056
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|16384
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|54784
+Unknown3	|UInt32	|61056
+Unknown4	|UInt32	|115840
+Unknown5	|UInt32	|16384
+Unknown6	|UInt32	|32768
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|54272
+Unknown3	|UInt32	|115840
+Unknown4	|UInt32	|170112
+Unknown5	|UInt32	|32768
+Unknown6	|UInt32	|49152
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|13184
+Unknown3	|UInt32	|170112
+Unknown4	|UInt32	|183296
+Unknown5	|UInt32	|49152
+Unknown6	|UInt32	|53248
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|384
+Unknown2	|UInt32	|66560
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|66176
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|16384
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|53248
+Unknown3	|UInt32	|66176
+Unknown4	|UInt32	|119424
+Unknown5	|UInt32	|16384
+Unknown6	|UInt32	|32768
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|53760
+Unknown3	|UInt32	|119424
+Unknown4	|UInt32	|173184
+Unknown5	|UInt32	|32768
+Unknown6	|UInt32	|49152
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|12160
+Unknown3	|UInt32	|173184
+Unknown4	|UInt32	|185344
+Unknown5	|UInt32	|49152
+Unknown6	|UInt32	|55296
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|384
+Unknown2	|UInt32	|66560
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|66176
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|16384
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|53248
+Unknown3	|UInt32	|66176
+Unknown4	|UInt32	|119424
+Unknown5	|UInt32	|16384
+Unknown6	|UInt32	|32768
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown1	|UInt32	|0
+Unknown2	|UInt32	|74624
+Unknown3	|UInt32	|119424
+Unknown4	|UInt32	|194048
+Unknown5	|UInt32	|32768
+Unknown6	|UInt32	|49152
+
+

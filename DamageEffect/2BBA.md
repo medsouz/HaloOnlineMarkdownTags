@@ -1,0 +1,71 @@
+# [0x2BBA] 0x00002BBA
+
+**Name:** ```0x00002BBA```
+
+**Index:** ```0x2BBA```
+
+**Tag Group:** ```DamageEffect (jpt!)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+RadiusMin	|Single	|0
+RadiusMax	|Single	|0
+CutoffScale	|Single	|0
+Flags	|UInt32	|0
+SideEffect	|Enum (SideEffectValue)	|null
+Category	|Enum (CategoryValue)	|null
+Flags2	|UInt32	|1
+AreaOfEffectCoreRadius	|Single	|0
+DamageLowerBound	|Single	|10
+DamageUpperBoundMin	|Single	|10
+DamageUpperBoundMax	|Single	|10
+DamageInnerConeAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+DamageOuterConeAngle	|Angle	|{ Degrees: 0, Radians: 0 }
+ActiveCamoflageDamage	|Single	|0
+Stun	|Single	|0
+MaxStun	|Single	|0
+StunTime	|Single	|0
+InstantaneousAcceleration	|Single	|0.5
+RiderDirectDamageScale	|Single	|0
+RiderMaxTransferDamageScale	|Single	|0
+RiderMinTransferDamageScale	|Single	|0
+GeneralDamage	|StringId	|collision
+SpecificDamage	|StringId	|
+SpecialDamage	|StringId	|
+AiStunRadius	|Single	|0
+AiStunBoundsMin	|Single	|0
+AiStunBoundsMax	|Single	|0
+ShakeRadius	|Single	|0
+EmpRadius	|Single	|0
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1065353216
+PlayerResponses	|TagBlock (PlayerResponses)	|0
+DamageResponse	|CachedTagInstance	|null
+Duration	|Single	|0
+FadeFunction	|Enum (FadeFunctionValue)	|null
+Unknown4	|Int16	|0
+Rotation	|Angle	|{ Degrees: 0, Radians: 0 }
+Pushback	|Single	|0
+JitterMin	|Single	|0
+JitterMax	|Single	|0
+Duration2	|Single	|0
+FalloffFunction	|Enum (FalloffFunctionValue)	|null
+Unknown5	|Int16	|0
+RandomTranslation	|Single	|0
+RandomRotation	|Angle	|{ Degrees: 0, Radians: 0 }
+WobbleFunction	|Enum (WobbleFunctionValue)	|null
+Unknown6	|Int16	|0
+WobbleFunctionPeriod	|Single	|1
+WobbleWeight	|Single	|0
+Sound	|CachedTagInstance	|null
+ForwardVelocity	|Single	|0
+ForwardRadius	|Single	|0
+ForwardExponent	|Single	|0
+OutwardVelocity	|Single	|0
+OutwardRadius	|Single	|0
+OutwardExponent	|Single	|0
+
+

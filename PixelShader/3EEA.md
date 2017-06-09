@@ -1,0 +1,4002 @@
+# [0x3EEA] 0x00003EEA
+
+**Name:** ```0x00003EEA```
+
+**Index:** ```0x3EEA```
+
+**Tag Group:** ```PixelShader (pixl)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+DrawModes	|TagBlock (DrawModes)	|[20](#drawmodes)
+Unknown3	|UInt32	|0
+PixelShaders	|TagBlock (PixelShaders)	|[13](#pixelshaders)
+
+
+## Tag Blocks
+
+### DrawModes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|1
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|1
+Count	|Byte	|1
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|3
+Count	|Byte	|1
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|2
+Count	|Byte	|1
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|5
+Count	|Byte	|1
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|6
+Count	|Byte	|1
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|7
+Count	|Byte	|1
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|4
+Count	|Byte	|1
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|8
+Count	|Byte	|1
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|10
+Count	|Byte	|1
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|9
+Count	|Byte	|1
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|11
+Count	|Byte	|1
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|0
+Count	|Byte	|0
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Index	|Byte	|12
+Count	|Byte	|1
+
+
+### PixelShaders
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[11](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[53](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[62](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[49](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[33](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[62](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[62](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[62](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[4](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[13](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[7](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|[33](#pixelshaders_unknown7)
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Byte[]	|System.Byte[]
+Unknown2	|Byte[]	|System.Byte[]
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|TagBlock (PixelShaders_Unknown7)	|0
+Unknown8	|UInt32	|1
+Unknown9	|UInt32	|0
+PixelShader	|UInt32	|0
+
+
+### PixelShaders_Unknown7
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397184
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397187
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397186
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397185
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397188
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397191
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397190
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397189
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dominant_light_intensity_map
+Unknown2	|UInt32	|50397187
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397195
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397196
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397193
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397194
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|lightprobe_texture_array
+Unknown2	|UInt32	|50397186
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397192
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lightmap_compress_constant_0
+Unknown2	|UInt32	|33620178
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lightmap_compress_constant_1
+Unknown2	|UInt32	|33620179
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**49:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**50:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**51:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**52:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397194
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397195
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_c78d78
+Unknown2	|UInt32	|50397193
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397191
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397192
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_direction
+Unknown2	|UInt32	|33619979
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_intensity
+Unknown2	|UInt32	|33619981
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_0
+Unknown2	|UInt32	|33619969
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_1
+Unknown2	|UInt32	|33619970
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_2
+Unknown2	|UInt32	|33619971
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_3
+Unknown2	|UInt32	|33619972
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_4
+Unknown2	|UInt32	|33619973
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_5
+Unknown2	|UInt32	|33619974
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_6
+Unknown2	|UInt32	|33619975
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_7
+Unknown2	|UInt32	|33619976
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_8
+Unknown2	|UInt32	|33619977
+
+
+**49:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_9
+Unknown2	|UInt32	|33619978
+
+
+**50:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**51:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**52:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**53:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**54:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**55:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**56:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**57:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**58:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**59:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**60:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**61:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397193
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397194
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397191
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397192
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620039
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620041
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_light_gel_texture
+Unknown2	|UInt32	|50397192
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_light_shadowing
+Unknown2	|UInt32	|65549
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620037
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620036
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_dynamic_light_gel_xform
+Unknown2	|UInt32	|33619973
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620038
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|shadow_depth_map_1
+Unknown2	|UInt32	|50397191
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|33816594
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620040
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397194
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397195
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_c78d78
+Unknown2	|UInt32	|50397193
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397191
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397192
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_direction
+Unknown2	|UInt32	|33619979
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_intensity
+Unknown2	|UInt32	|33619981
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_0
+Unknown2	|UInt32	|33619969
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_1
+Unknown2	|UInt32	|33619970
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_2
+Unknown2	|UInt32	|33619971
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_3
+Unknown2	|UInt32	|33619972
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_4
+Unknown2	|UInt32	|33619973
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_5
+Unknown2	|UInt32	|33619974
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_6
+Unknown2	|UInt32	|33619975
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_7
+Unknown2	|UInt32	|33619976
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_8
+Unknown2	|UInt32	|33619977
+
+
+**49:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_9
+Unknown2	|UInt32	|33619978
+
+
+**50:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**51:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**52:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**53:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**54:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**55:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**56:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**57:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**58:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**59:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**60:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**61:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397194
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397195
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_c78d78
+Unknown2	|UInt32	|50397193
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397191
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397192
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_direction
+Unknown2	|UInt32	|33619979
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_intensity
+Unknown2	|UInt32	|33619981
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_0
+Unknown2	|UInt32	|33619969
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_1
+Unknown2	|UInt32	|33619970
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_2
+Unknown2	|UInt32	|33619971
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_3
+Unknown2	|UInt32	|33619972
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_4
+Unknown2	|UInt32	|33619973
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_5
+Unknown2	|UInt32	|33619974
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_6
+Unknown2	|UInt32	|33619975
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_7
+Unknown2	|UInt32	|33619976
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_8
+Unknown2	|UInt32	|33619977
+
+
+**49:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_9
+Unknown2	|UInt32	|33619978
+
+
+**50:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**51:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**52:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**53:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**54:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**55:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**56:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**57:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**58:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**59:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**60:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**61:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620042
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620044
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_anti_shadow_control
+Unknown2	|UInt32	|33620051
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620036
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|area_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_blend
+Unknown2	|UInt32	|33619983
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_0
+Unknown2	|UInt32	|50397194
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_environment_map_1
+Unknown2	|UInt32	|50397195
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_roughness_scale
+Unknown2	|UInt32	|33620053
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|env_tint_color
+Unknown2	|UInt32	|33620052
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|environment_map_specular_contribution
+Unknown2	|UInt32	|33620037
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620039
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color_environment
+Unknown2	|UInt32	|33620046
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_power
+Unknown2	|UInt32	|33620040
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_c78d78
+Unknown2	|UInt32	|50397193
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_cc0236
+Unknown2	|UInt32	|50397191
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_sampler_dd0236
+Unknown2	|UInt32	|50397192
+
+
+**33:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_direction
+Unknown2	|UInt32	|33619979
+
+
+**34:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_dominant_light_intensity
+Unknown2	|UInt32	|33619981
+
+
+**35:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**36:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620038
+
+
+**37:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+Unknown2	|UInt32	|65538
+
+
+**38:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**39:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|order3_area_specular
+Unknown2	|UInt32	|65537
+
+
+**40:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_0
+Unknown2	|UInt32	|33619969
+
+
+**41:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_1
+Unknown2	|UInt32	|33619970
+
+
+**42:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_2
+Unknown2	|UInt32	|33619971
+
+
+**43:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_3
+Unknown2	|UInt32	|33619972
+
+
+**44:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_4
+Unknown2	|UInt32	|33619973
+
+
+**45:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_5
+Unknown2	|UInt32	|33619974
+
+
+**46:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_6
+Unknown2	|UInt32	|33619975
+
+
+**47:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_7
+Unknown2	|UInt32	|33619976
+
+
+**48:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_8
+Unknown2	|UInt32	|33619977
+
+
+**49:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_lighting_constant_9
+Unknown2	|UInt32	|33619978
+
+
+**50:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_albedo_blend
+Unknown2	|UInt32	|33620050
+
+
+**51:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_coefficient
+Unknown2	|UInt32	|33620047
+
+
+**52:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_color
+Unknown2	|UInt32	|33620048
+
+
+**53:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|rim_fresnel_power
+Unknown2	|UInt32	|33620049
+
+
+**54:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620041
+
+
+**55:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**56:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**57:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**58:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620043
+
+
+**59:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**60:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_fresnel_color_environment
+Unknown2	|UInt32	|33620045
+
+
+**61:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|k_ps_active_camo_factor
+Unknown2	|UInt32	|33620180
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|scene_ldr_texture
+Unknown2	|UInt32	|50397184
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397185
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397186
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_light_count
+Unknown2	|UInt32	|33619985
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|36175890
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620028
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397185
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397184
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_render_debug_mode
+Unknown2	|UInt32	|33620062
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|camera_position_ps
+Unknown2	|UInt32	|33619984
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|actually_calc_albedo
+Unknown2	|UInt32	|65548
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend
+Unknown2	|UInt32	|33620039
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_blend_with_specular_tint
+Unknown2	|UInt32	|33620041
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_color
+Unknown2	|UInt32	|33620026
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|albedo_texture
+Unknown2	|UInt32	|50397184
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|analytical_specular_contribution
+Unknown2	|UInt32	|33620035
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map
+Unknown2	|UInt32	|50397186
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|base_map_xform
+Unknown2	|UInt32	|33620027
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_coefficient
+Unknown2	|UInt32	|33620032
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map
+Unknown2	|UInt32	|50397189
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_detail_map_xform
+Unknown2	|UInt32	|33620031
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map
+Unknown2	|UInt32	|50397188
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|bump_map_xform
+Unknown2	|UInt32	|33620030
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|debug_tint
+Unknown2	|UInt32	|33620029
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map
+Unknown2	|UInt32	|50397187
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|detail_map_xform
+Unknown2	|UInt32	|33620028
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|diffuse_coefficient
+Unknown2	|UInt32	|33620033
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_light_gel_texture
+Unknown2	|UInt32	|50397192
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|dynamic_light_shadowing
+Unknown2	|UInt32	|65549
+
+
+**20:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|fresnel_color
+Unknown2	|UInt32	|33620037
+
+
+**21:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|g_exposure
+Unknown2	|UInt32	|33619968
+
+
+**22:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture
+Unknown2	|UInt32	|50397190
+
+
+**23:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|material_texture_xform
+Unknown2	|UInt32	|33620036
+
+
+**24:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|normal_texture
+Unknown2	|UInt32	|50397185
+
+
+**25:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|p_dynamic_light_gel_xform
+Unknown2	|UInt32	|33619973
+
+
+**26:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|roughness
+Unknown2	|UInt32	|33620038
+
+
+**27:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|shadow_depth_map_1
+Unknown2	|UInt32	|50397191
+
+
+**28:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|simple_lights
+Unknown2	|UInt32	|33816594
+
+
+**29:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_coefficient
+Unknown2	|UInt32	|33620034
+
+
+**30:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|specular_tint
+Unknown2	|UInt32	|33620040
+
+
+**31:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|texture_size
+Unknown2	|UInt32	|33619982
+
+
+**32:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|use_material_texture
+Unknown2	|UInt32	|65536
+
+

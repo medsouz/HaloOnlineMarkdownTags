@@ -1,0 +1,503 @@
+# [0x2FBD] 0x00002FBD
+
+**Name:** ```0x00002FBD```
+
+**Index:** ```0x2FBD```
+
+**Tag Group:** ```RenderMethodTemplate (rmt2)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+VertexShader	|CachedTagInstance (VertexShader)	|[[0x2FBE] 0x00002FBE](../VertexShader/2FBE.md)
+PixelShader	|CachedTagInstance (PixelShader)	|[[0x2FBF] 0x00002FBF](../PixelShader/2FBF.md)
+DrawModeBitmask	|UInt32	|686074
+DrawModes	|TagBlock (DrawModes)	|[20](#drawmodes)
+Unknown3	|TagBlock (Unknown3)	|[14](#unknown3)
+ArgumentMappings	|TagBlock (ArgumentMappings)	|[194](#argumentmappings)
+Arguments	|TagBlock (Arguments)	|[15](#arguments)
+Unknown5	|TagBlock (Unknown5)	|0
+Unknown6	|TagBlock (Unknown6)	|[1](#unknown6)
+ShaderMaps	|TagBlock (ShaderMaps)	|[4](#shadermaps)
+Unknown7	|UInt32	|0
+Unknown8	|UInt32	|0
+Unknown9	|UInt32	|0
+
+
+## Tag Blocks
+
+### DrawModes
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1024
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1025
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1027
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1026
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1030
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1031
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1032
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1028
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1029
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1033
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1035
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1034
+
+
+**15:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**16:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**17:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1036
+
+
+**18:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|0
+
+
+**19:**
+
+Name	| Type	| Value
+---	|---	|---	|
+UnknownBlock2Pointer	|UInt16	|1037
+
+
+### Unknown3
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|3072
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|4099
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1031
+Unknown7	|UInt32	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4110
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15378
+Unknown4	|UInt32	|403178529
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1058
+Unknown7	|UInt32	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4135
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15403
+Unknown4	|UInt32	|270730298
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1083
+Unknown7	|UInt32	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4160
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15428
+Unknown4	|UInt32	|272368723
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1108
+Unknown7	|UInt32	|0
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|3161
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|4188
+Unknown4	|UInt32	|274006016
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1120
+Unknown7	|UInt32	|0
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4197
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15465
+Unknown4	|UInt32	|274793592
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1145
+Unknown7	|UInt32	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4222
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15490
+Unknown4	|UInt32	|276432017
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1170
+Unknown7	|UInt32	|0
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|4247
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|15515
+Unknown4	|UInt32	|278070442
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1195
+Unknown7	|UInt32	|0
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|78381056
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|2222
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|3248
+Unknown4	|UInt32	|78446592
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1203
+Unknown7	|UInt32	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|1204
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|1205
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|3258
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|4285
+Unknown4	|UInt32	|280363008
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|1217
+Unknown7	|UInt32	|0
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|UInt32	|0
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Unknown4	|UInt32	|0
+Unknown5	|UInt32	|0
+Unknown6	|UInt32	|0
+Unknown7	|UInt32	|0
+
+
+### ArgumentMappings
+
+*Excluded due to >100 entries.*### Arguments
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|base_map
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|detail_map
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|albedo_color
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|bump_map
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|specular_mask_texture
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|diffuse_coefficient
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|specular_coefficient
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|fresnel_coefficient
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|fresnel_curve_steepness
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|fresnel_curve_bias
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|roughness
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|analytical_specular_contribution
+
+
+**12:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|area_specular_contribution
+
+
+**13:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|env_tint_color
+
+
+**14:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|env_roughness_scale
+
+
+### Unknown6
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|StringId	|no_dynamic_lights
+
+
+### ShaderMaps
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|base_map
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|detail_map
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|bump_map
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Name	|StringId	|specular_mask_texture
+
+

@@ -1,0 +1,521 @@
+# 0x4BED
+
+**Index:** ```0x4BED```
+
+**Tag Group:** ```Shader (rmsh)```
+
+## Fields
+
+Name	| Type	| Value
+---	|---	|---	|
+BaseRenderMethod	|CachedTagInstance (RenderMethodDefinition)	|[0x4458](../RenderMethodDefinition/4458.md)
+Unknown	|TagBlock (Unknown)	|[12](#unknown)
+ImportData	|TagBlock (ImportData)	|[7](#importdata)
+ShaderProperties	|TagBlock (ShaderProperties)	|[1](#shaderproperties)
+Unknown2	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|2
+Unknown5	|SByte	|0
+Unknown6	|UInt32	|0
+Unknown7	|Int32	|-1
+Material	|StringId	|tough_organic_wood
+
+
+## Tag Blocks
+
+### Unknown
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|2
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**7:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**8:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**9:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**10:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+**11:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int16	|0
+
+
+### ImportData
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|albedo_color
+Unknown	|Int32	|5
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|base_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BEE](../Bitmap/4BEE.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[2](#importdata_functions)
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|bump_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BEF](../Bitmap/4BEF.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[2](#importdata_functions)
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|height_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|height_scale
+Unknown	|Int32	|2
+Bitmap	|CachedTagInstance	|null
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[1](#importdata_functions)
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|detail_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BF0](../Bitmap/4BF0.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[2](#importdata_functions)
+
+
+**6:**
+
+Name	| Type	| Value
+---	|---	|---	|
+MaterialType	|StringId	|bump_detail_map
+Unknown	|Int32	|0
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BF1](../Bitmap/4BF1.md)
+Unknown2	|UInt32	|0
+Unknown3	|Int32	|0
+Unknown4	|Int16	|0
+Unknown5	|Int16	|0
+Unknown6	|Int16	|0
+Unknown7	|Int16	|0
+Unknown8	|Int16	|0
+Unknown9	|Int16	|0
+Unknown10	|UInt32	|0
+Functions	|TagBlock (ImportData_Functions)	|[2](#importdata_functions)
+
+
+### ImportData_Functions
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|1
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|3
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|4
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|3
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|4
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|2
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|0
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|3
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|4
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|3
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Unknown	|Int32	|4
+Name	|StringId	|
+Unknown2	|UInt32	|0
+Unknown3	|UInt32	|0
+Function2	|Byte[]	|System.Byte[]
+
+
+### ShaderProperties
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Template	|CachedTagInstance (RenderMethodTemplate)	|[0x4576](../RenderMethodTemplate/4576.md)
+ShaderMaps	|TagBlock (ShaderProperties_ShaderMaps)	|[4](#shaderproperties_shadermaps)
+Arguments	|TagBlock (ShaderProperties_Arguments)	|[6](#shaderproperties_arguments)
+Unknown	|TagBlock (ShaderProperties_Unknown)	|0
+Unknown2	|UInt32	|0
+DrawModes	|TagBlock (ShaderProperties_DrawModes)	|0
+Unknown4	|TagBlock (ShaderProperties_Unknown4)	|0
+Unknown5	|TagBlock (ShaderProperties_Unknown5)	|0
+Functions	|TagBlock (ShaderProperties_Functions)	|0
+BitmapTransparency	|Int32	|0
+Unknown7	|Int32	|0
+Unknown8	|UInt32	|0
+Unknown9	|Int16	|-1
+Unknown10	|Int16	|0
+Unknown11	|Int16	|-1
+Unknown12	|Int16	|-1
+Unknown13	|Int16	|2
+Unknown14	|Int16	|-1
+Unknown15	|Int16	|-1
+Unknown16	|Int16	|-1
+
+
+### ShaderProperties_ShaderMaps
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BEE](../Bitmap/4BEE.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|0
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BF0](../Bitmap/4BF0.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|1
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BEF](../Bitmap/4BEF.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|3
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Bitmap	|CachedTagInstance (Bitmap)	|[0x4BF1](../Bitmap/4BF1.md)
+Unknown	|SByte	|0
+BitmapIndex	|SByte	|0
+Unknown2	|SByte	|0
+BitmapFlags	|Byte	|0
+UnknownBitmapIndexEnable	|SByte	|0
+UvArgumentIndex	|SByte	|4
+Unknown3	|SByte	|0
+Unknown4	|SByte	|0
+
+
+### ShaderProperties_Arguments
+
+**0:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|4
+Arg2	|Single	|1
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**1:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|4
+Arg2	|Single	|8
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**2:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|0.627451
+Arg2	|Single	|0.627451
+Arg3	|Single	|0.5803922
+Arg4	|Single	|1
+
+
+**3:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|4
+Arg2	|Single	|4
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**4:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|8
+Arg2	|Single	|2
+Arg3	|Single	|0
+Arg4	|Single	|0
+
+
+**5:**
+
+Name	| Type	| Value
+---	|---	|---	|
+Arg1	|Single	|1
+Arg2	|Single	|1
+Arg3	|Single	|1
+Arg4	|Single	|1
+
+
